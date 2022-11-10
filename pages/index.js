@@ -13,53 +13,76 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Jhon Wick
         </h1>
+        <h3 className={styles.description}>
+          Actor and Artist
+        </h3>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo perferendis quod adipisci accusantium magni incidunt nemo iure
         </p>
+        <Image className={styles.img} src="/Image/Pic.jfif" alt=""
+          width={200}
+          height={200} />
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <div className={styles.card}>
+            <Image src="/Image/Pic.jfif" width={30} height={30} alt="pic" />
+            <h2> Dummy Test</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+          <div className={styles.card}>
+            <Image src="/Image/Pic.jfif" width={30} height={30} alt="pic" />
+            <h2> Dummy Test</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div className={styles.card}>
+            <Image src="/Image/Pic.jfif" width={30} height={30} alt="pic" />
+            <h2> Dummy Test</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+        </div>
+        <div className={styles.grid}>
+          <a className={styles.Image}>
+            <Image src="/Image/Pic.jfif" alt='Pic' width={300}
+              height={300} />
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a className={styles.Image}>
+            <Image src="/Image/Pic.jfif" alt='Pic' width={300}
+              height={300} />
+          </a>
+          <a
+            className={styles.Image}
+          >
+            <Image src="/Image/Pic.jfif" alt='Pic' width={300}
+              height={300} />
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
+            className={styles.Image}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <Image src="/Image/Pic.jfif" alt='Pic' width={300}
+              height={300} />
           </a>
-
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
+            className={styles.Image}
           >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <Image src="/Image/Pic.jfif" alt='Pic' width={300}
+              height={300} />
+          </a>
+          <a
+            className={styles.Image}
+          >
+            <Image src="/Image/Pic.jfif" alt='Pic' width={300}
+              height={300} />
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a>
           Powered by{' '}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
